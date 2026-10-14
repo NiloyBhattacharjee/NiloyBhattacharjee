@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 240" width="440" height="240" role="img" aria-label="surgesim">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF6A00"/><stop offset="1" stop-color="#FFB000"/></linearGradient>
+    <radialGradient id="h" cx="1" cy="0" r="0.9"><stop offset="0" stop-color="#FF6A00" stop-opacity=".22"/><stop offset="1" stop-color="#FF6A00" stop-opacity="0"/></radialGradient>
+    <clipPath id="c"><rect width="440" height="240" rx="16"/></clipPath>
+    <style>.s{font-family:'Segoe UI',Helvetica,Arial,sans-serif}.m{font-family:ui-monospace,Menlo,Consolas,monospace}</style>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="440" height="240" fill="#0B0B0B"/>
+    <rect width="440" height="240" fill="url(#h)"/>
+    <rect x="0" y="0" width="6" height="240" fill="url(#g)"/>
+    <g transform="translate(360 30)"><g fill="none" stroke="url(#g)" stroke-width="3" stroke-linecap="round"><line x1="0" y1="20" x2="64" y2="20"/><circle cx="8" cy="20" r="5" fill="#111"/><circle cx="32" cy="20" r="5" fill="#111"/><circle cx="56" cy="20" r="5" fill="#111"/><path d="M8 8 Q20 -4 32 8 T56 8"/></g></g>
+    <text x="32" y="74" class="s" font-size="34" font-weight="800" fill="#FFFFFF" letter-spacing="-.5">surgesim</text>
+    <text x="32" y="122" class="s" font-size="18" fill="#C9C9C9">Discrete event simulation for</text>
+    <text x="32" y="148" class="s" font-size="18" fill="#C9C9C9">cloud &amp; distributed systems</text>
+    <rect x="32" y="186" width="106" height="28" rx="14" fill="none" stroke="#FF6A00" stroke-opacity=".55"/><text x="85" y="205" text-anchor="middle" class="m" font-size="13" fill="#FFB000">TypeScript</text><rect x="148" y="186" width="49" height="28" rx="14" fill="none" stroke="#FF6A00" stroke-opacity=".55"/><text x="172" y="205" text-anchor="middle" class="m" font-size="13" fill="#FFB000">npm</text><rect x="207" y="186" width="106" height="28" rx="14" fill="none" stroke="#FF6A00" stroke-opacity=".55"/><text x="260" y="205" text-anchor="middle" class="m" font-size="13" fill="#FFB000">simulation</text>
+  </g>
+  <rect x=".75" y=".75" width="438.5" height="238.5" rx="15.5" fill="none" stroke="#FF6A00" stroke-opacity=".35" stroke-width="1.5"/>
+</svg>
