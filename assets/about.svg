@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 170" width="1200" height="170" role="img" aria-label="About">
+<style>
+  text { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  .t { fill: #1F2328; } .m { fill: #656D76; } .r { stroke: #D0D7DE; } .k { fill: #E4E4E1; } .o { fill: #FF5A1F; }
+  .lab { font-size: 17px; letter-spacing: 2.5px; }
+  @media (prefers-color-scheme: dark) {
+    .t { fill: #F0F0EE; } .m { fill: #8B949E; } .r { stroke: #30363D; } .k { fill: #262A30; }
+  }
+</style>
+<line x1="0" y1="1" x2="1200" y2="1" class="r" stroke-width="2"/><text x="0" y="46" class="m lab">ABOUT</text>
+<text x="300" y="54" class="t" font-size="28">Backend services, data pipelines and simulation tools,</text>
+<text x="300" y="94" class="t" font-size="28">mostly on AWS with Python and TypeScript. I got into</text>
+<text x="300" y="134" class="t" font-size="28">simulation working with researchers on mining supply chains.</text>
+</svg>
