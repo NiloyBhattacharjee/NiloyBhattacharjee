@@ -24,9 +24,12 @@ I got into simulation working with researchers on discrete event models for mini
 
 ### Stack
 
-<img src="https://skillicons.dev/icons?i=aws,py,java,spring,fastapi,ts,react,vite,tailwind,sqlite,docker,githubactions&perline=12" alt="AWS, Python, Java, Spring, FastAPI, TypeScript, React, Vite, Tailwind, SQLite, Docker, GitHub Actions">
+<img src="https://skillicons.dev/icons?i=react,py,postgres,fastapi,aws" alt="React, Python, PostgreSQL, FastAPI, AWS" height="52">
 
-<sub>Also Lambda, Glue, SQS, CDK, Bedrock, Transcribe, Snowflake, dbt, SQLAlchemy and Streamlit.</sub>
+<sub>Also</sub><br>
+<img src="https://skillicons.dev/icons?i=ts,java,spring,vite,tailwind,sqlite,docker,githubactions" alt="TypeScript, Java, Spring, Vite, Tailwind, SQLite, Docker, GitHub Actions" height="30">
+
+<sub>Lambda, Glue, SQS, CDK, Bedrock, Transcribe, Snowflake, dbt, SQLAlchemy, Streamlit</sub>
 
 <br>
 
