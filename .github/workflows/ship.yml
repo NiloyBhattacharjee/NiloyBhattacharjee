@@ -1,0 +1,49 @@
+# Redraws ship/ship.gif from the owner's public GitHub activity (see ship.py).
+name: Ship
+
+on:
+  schedule:
+    # Just after midnight UTC, so the ship shows the day that just ended.
+    - cron: "20 0 * * *"
+  workflow_dispatch:
+  push:
+    paths: [.github/workflows/ship.yml, ship.py]
+
+permissions:
+  contents: write
+
+concurrency: ship
+
+jobs:
+  ship:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Collect public activity with git-koi
+        env:
+          GH_TOKEN: ${{ github.token }}
+        working-directory: ${{ runner.temp }}
+        run: |
+          archive=git-koi-1.0.2-x86_64-unknown-linux-musl
+          gh release download v1.0.2 --repo yalongwastaken/git-koi --pattern "$archive.tar.gz*"
+          sha256sum -c "$archive.tar.gz.sha256"
+          tar xzf "$archive.tar.gz"
+          "$archive/git-koi" collect "${{ github.repository_owner }}" --output snapshot.json
+      - name: Draw the ship
+        run: |
+          python3 -m venv "$RUNNER_TEMP/venv"
+          "$RUNNER_TEMP/venv/bin/pip" install --quiet "pillow>=11,<13"
+          "$RUNNER_TEMP/venv/bin/python" ship.py --check
+          "$RUNNER_TEMP/venv/bin/python" ship.py "$RUNNER_TEMP/snapshot.json" ship/ship.gif
+      - name: Commit the ship if it changed
+        shell: bash
+        run: |
+          git add ship/ship.gif
+          if git diff --cached --quiet; then
+            echo "The ship is unchanged; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --quiet --message "ship: draw the day's ship"
+          git push --quiet

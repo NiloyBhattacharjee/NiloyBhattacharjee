@@ -1,4 +1,4 @@
-<img src="koi/koi.gif" width="256" align="right" alt="My koi, redrawn nightly from my GitHub activity" />
+<img src="ship/ship.gif" width="256" align="right" alt="My pirate ship, redrawn nightly from my GitHub activity" />
 
 <h1>Niloy Bhattacharjee</h1>
 
