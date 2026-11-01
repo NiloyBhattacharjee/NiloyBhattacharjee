@@ -5,7 +5,7 @@
 <b>Full stack developer</b> &nbsp;·&nbsp; <b>Hobbyist game developer</b> &nbsp;·&nbsp; Sydney<br>
 <sub>Mostly backend, data pipelines and simulation, built on AWS with Python and TypeScript.</sub>
 
-I got into simulation working with researchers on discrete event models for mining supply chains, and I've kept building in that space since. Outside work I'm a hobbyist game developer, exploring how AI can help build video games.
+
 
 <a href="https://www.linkedin.com/in/niloy-bhattacharjee-5b7813153"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="mailto:niloybhattacharjee99@outlook.com"><img src="https://img.shields.io/badge/Email-1f2937?style=flat-square&logo=maildotru&logoColor=white" alt="Email"></a>
