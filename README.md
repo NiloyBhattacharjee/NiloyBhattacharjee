@@ -1,3 +1,5 @@
+<img src="koi/koi.gif" width="256" align="right" alt="My koi, redrawn nightly from my GitHub activity" />
+
 <h1>Niloy Bhattacharjee</h1>
 
 Full stack developer in Sydney. Mostly backend, data pipelines and simulation, built on AWS with Python and TypeScript.
