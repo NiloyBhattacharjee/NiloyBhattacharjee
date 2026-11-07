@@ -1,5 +1,3 @@
-<img src="ship/ship.gif" width="256" align="right" alt="My pirate ship, redrawn nightly from my GitHub activity" />
-
 <h1>Niloy Bhattacharjee</h1>
 
 <b>Full stack developer</b> &nbsp;·&nbsp; <b>Hobbyist game developer</b> &nbsp;·&nbsp; Sydney<br>
@@ -11,8 +9,6 @@
 <a href="mailto:niloybhattacharjee99@outlook.com"><img src="https://img.shields.io/badge/Email-1f2937?style=flat-square&logo=maildotru&logoColor=white" alt="Email"></a>
 <a href="https://niloybhattacharjee.itch.io/plunder-and-pillage"><img src="https://img.shields.io/badge/itch.io-Plunder_and_Pillage-FA5C5C?style=flat-square&logo=itchdotio&logoColor=white" alt="Plunder and Pillage on itch.io"></a>
 <a href="https://www.npmjs.com/org/surgesim"><img src="https://img.shields.io/badge/npm-@surgesim-CB3837?style=flat-square&logo=npm&logoColor=white" alt="@surgesim on npm"></a>
-
-<br clear="right">
 
 ### Projects
 
@@ -70,7 +66,3 @@ Universiti Teknologi Malaysia</sub>
 </td>
 </tr>
 </table>
-
-<br>
-
-<p align="center"><sub>⚓ The ship is redrawn every night from my GitHub activity: masts from lifetime contributions, gunports from repos, wind from the last month, and sails striped with my top languages. <a href="ship.py">How it's drawn</a>.</sub></p>
