@@ -45,7 +45,7 @@
 
 <img src="https://skillicons.dev/icons?i=react,py,postgres,fastapi,aws" alt="React, Python, PostgreSQL, FastAPI, AWS" height="52">
 
-<img src="https://skillicons.dev/icons?i=ts,java,spring,vite,tailwind,sqlite,docker,githubactions,godot" alt="TypeScript, Java, Spring, Vite, Tailwind, SQLite, Docker, GitHub Actions, Godot" height="30"><br>
+<img src="https://skillicons.dev/icons?i=ts,java,spring,vite,tailwind,sqlite,docker,githubactions,godot" alt="TypeScript, Java, Docker, GitHub Actions" height="30"><br>
 <sub>Lambda · Glue · SQS · CDK · Bedrock · Transcribe · Snowflake · dbt · SQLAlchemy · Streamlit</sub>
 
 <table>
